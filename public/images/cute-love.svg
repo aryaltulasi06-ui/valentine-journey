@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FFE5EC" rx="20"/>
+  
+  <!-- Left character -->
+  <circle cx="70" cy="80" r="25" fill="#FFD9E8"/>
+  <circle cx="60" cy="75" r="4" fill="#333"/>
+  <circle cx="80" cy="75" r="4" fill="#333"/>
+  <path d="M 70 90 Q 65 95 75 95" stroke="#FF69B4" stroke-width="2" fill="none"/>
+  
+  <!-- Right character -->
+  <circle cx="130" cy="80" r="25" fill="#FFD9E8"/>
+  <circle cx="120" cy="75" r="4" fill="#333"/>
+  <circle cx="140" cy="75" r="4" fill="#333"/>
+  <path d="M 130 90 Q 125 95 135 95" stroke="#FF69B4" stroke-width="2" fill="none"/>
+  
+  <!-- Hearts between them -->
+  <path d="M 100 50 Q 95 45 90 50 Q 85 55 100 65 Q 115 55 110 50 Q 105 45 100 50" fill="#FF1493"/>
+  <path d="M 100 70 Q 95 65 90 70 Q 85 75 100 85 Q 115 75 110 70 Q 105 65 100 70" fill="#FFB6C1" opacity="0.7"/>
+  
+  <!-- Bodies -->
+  <rect x="55" y="105" width="30" height="40" fill="#FFB6C1" rx="5"/>
+  <rect x="115" y="105" width="30" height="40" fill="#FFB6C1" rx="5"/>
+  
+  <!-- Arms -->
+  <circle cx="45" cy="110" r="6" fill="#FFD9E8"/>
+  <circle cx="155" cy="110" r="6" fill="#FFD9E8"/>
+</svg>

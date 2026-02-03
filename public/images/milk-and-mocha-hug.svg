@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FFE5EC" rx="20"/>
+  
+  <!-- Left character (Milk) -->
+  <circle cx="70" cy="85" r="28" fill="#FFF9E6"/>
+  <circle cx="65" cy="80" r="4" fill="#333"/>
+  <circle cx="80" cy="80" r="4" fill="#333"/>
+  <path d="M 72 92 Q 70 96 75 97" stroke="#FFB6C1" stroke-width="1.5" fill="none"/>
+  
+  <!-- Right character (Mocha) -->
+  <circle cx="130" cy="85" r="28" fill="#D4A574"/>
+  <circle cx="125" cy="80" r="4" fill="#333"/>
+  <circle cx="140" cy="80" r="4" fill="#333"/>
+  <path d="M 132 92 Q 130 96 135 97" stroke="#FFB6C1" stroke-width="1.5" fill="none"/>
+  
+  <!-- Milk ears -->
+  <circle cx="55" cy="60" r="7" fill="#FFF9E6"/>
+  <circle cx="85" cy="60" r="7" fill="#FFF9E6"/>
+  <circle cx="58" cy="62" r="3" fill="#FFB6C1"/>
+  <circle cx="82" cy="62" r="3" fill="#FFB6C1"/>
+  
+  <!-- Mocha ears -->
+  <circle cx="115" cy="60" r="7" fill="#D4A574"/>
+  <circle cx="145" cy="60" r="7" fill="#D4A574"/>
+  <circle cx="118" cy="62" r="3" fill="#A0826D"/>
+  <circle cx="142" cy="62" r="3" fill="#A0826D"/>
+  
+  <!-- Bodies hugging -->
+  <rect x="55" y="113" width="30" height="50" fill="#FFF9E6" rx="8"/>
+  <rect x="115" y="113" width="30" height="50" fill="#D4A574" rx="8"/>
+  
+  <!-- Arms wrapping around -->
+  <ellipse cx="50" cy="125" rx="8" ry="20" fill="#FFF9E6"/>
+  <ellipse cx="150" cy="125" rx="8" ry="20" fill="#D4A574"/>
+  
+  <!-- Heart in the middle -->
+  <path d="M 100 100 Q 95 95 90 100 Q 85 105 100 115 Q 115 105 110 100 Q 105 95 100 100" fill="#FF69B4"/>
+</svg>

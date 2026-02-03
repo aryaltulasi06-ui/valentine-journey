@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red background -->
+  <rect width="200" height="200" fill="#FFE5E5" rx="20"/>
+  
+  <!-- Cat face -->
+  <circle cx="100" cy="90" r="35" fill="#FF8C42"/>
+  
+  <!-- Ears -->
+  <polygon points="75,60 70,30 85,55" fill="#FF8C42"/>
+  <polygon points="125,60 130,30 115,55" fill="#FF8C42"/>
+  <polygon points="78,55 75,40 82,52" fill="#FFB6A3"/>
+  <polygon points="122,55 125,40 118,52" fill="#FFB6A3"/>
+  
+  <!-- Eyes (angry) -->
+  <circle cx="85" cy="80" r="5" fill="#333"/>
+  <circle cx="115" cy="80" r="5" fill="#333"/>
+  <path d="M 80 78 L 90 78" stroke="#333" stroke-width="2"/>
+  <path d="M 110 78 L 120 78" stroke="#333" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <polygon points="100,90 97,98 103,98" fill="#FFB6A3"/>
+  
+  <!-- Mouth (angry) -->
+  <path d="M 100 100 Q 90 108 80 105" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 100 100 Q 110 108 120 105" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Knife in paw -->
+  <rect x="135" y="110" width="8" height="50" fill="#A0A0A0" rx="2" transform="rotate(-30 139 110)"/>
+  <polygon points="139,105 135,95 143,95" fill="#C0C0C0"/>
+  
+  <!-- Paw pad -->
+  <circle cx="150" cy="130" r="8" fill="#FF8C42"/>
+</svg>
