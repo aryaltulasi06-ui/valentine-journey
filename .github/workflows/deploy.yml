@@ -42,8 +42,6 @@ jobs:
 
       - name: Build with Vite
         run: npm run build
-        env:
-          VITE_APP_BASE: /valentine-journey/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
