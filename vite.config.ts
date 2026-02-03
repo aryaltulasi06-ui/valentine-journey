@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Set base to './' so that paths are relative and work on GitHub Pages
-  base: './',
+  // Set base to your GitHub Pages repository name
+  base: '/valentine-journey/',
   define: {
     'process.env': {}
   }
